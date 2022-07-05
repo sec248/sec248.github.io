@@ -1,0 +1,80 @@
+/**
+ * Copyright (c) 2022 sec248
+ * 
+ * This software is released under the MIT License.
+ * https://opensource.org/licenses/MIT
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@100;200;300;400;500;600;700&display=swap');
+
+html, body {
+    margin: 0px;
+    font-family: 'Kantumruy Pro', sans-serif;
+    padding: 0px;
+}
+
+#upper {
+    background: url(./background.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    min-height: 512px;
+}
+
+#upper p {
+    margin-top: 150px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.774);
+    font-size: 28px;
+    font-weight: 600;
+    transition: 250ms;
+}
+
+#upper p:hover {
+    color: #fff;
+}
+
+#upper a {
+    background: #000;
+    color: #fff;
+    margin: 0px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 4px;
+    display: block;
+    text-decoration: none;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#navbar h1 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #ddd;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 250ms;
+    background: transparent;
+    display: inline;
+    padding: 10px;
+} 
+
+#navbar a:hover {
+    color: #fff;
+}
+
+#upper h1 {
+    text-align: center;
+}
