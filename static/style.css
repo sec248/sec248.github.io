@@ -26,12 +26,15 @@ body {
 }
 
 #upper p {
+  margin: 0 auto;
   margin-top: 150px;
   text-align: center;
   color: rgba(255, 255, 255, 0.774);
   font-size: 28px;
   font-weight: 600;
   transition: 250ms;
+  width: 70%;
+  word-break: break-all;
 }
 
 h6 {
