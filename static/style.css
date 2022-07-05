@@ -98,40 +98,6 @@ h6 {
   text-align: center;
 }
 
-#about {
-  padding: 50px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-#about div {
-  max-width: 50vw;
-  text-align: left;
-}
-
-#about img {
-  background: #20202e;
-  height: 200px;
-  width: 200px;
-  border-radius: 9999px;
-  margin: 50px;
-}
-
-#about h1 {
-  color: #eee;
-  font-size: 32px;
-  font-weight: 600;
-}
-
-#about p {
-  color: #ddd;
-  font-size: 18px;
-  font-weight: 500;
-}
-
 hr {
   width: 50%;
   margin: 0 auto;
@@ -139,42 +105,45 @@ hr {
   border-radius: 10px;
 }
 
-#social {
-  padding: 50px;
+.text {
+  padding: 100px;
   text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap-reverse;
 }
 
-#social div {
-  max-width: 50vw;
-  text-align: left;
+.text div {
+  width: 50vw;
+  margin: 0 auto;
 }
 
 #buttons {
   width: auto;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
-#social img {
+.text img {
   background: #20202e;
   height: 200px;
   width: 200px;
   border-radius: 9999px;
-  margin: 50px;
 }
 
-#social h1 {
+.text p {
+  color: #ddd;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.text h1 {
   color: #eee;
   font-size: 32px;
   font-weight: 600;
+  margin-top: 50px;
 }
 
-#social a {
+.text a {
   background: #29293a;
   padding: 5px 10px 5px 10px;
   border-radius: 50px;
@@ -184,11 +153,9 @@ hr {
   font-weight: 500;
   transition: 250ms;
   margin: 5px;
-  margin-left: 0;
-  margin-right: 10px;
 }
 
-#social a:hover {
+.text a:hover {
   background: #3d3d52;
   color: #fff;
 }
