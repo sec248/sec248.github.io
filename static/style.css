@@ -21,13 +21,13 @@ body {
   background-position: center;
   background-repeat: repeat;
   background-size: cover;
-  min-height: 512px;
   border-bottom: 2px solid #aeaef1;
 }
 
 #upper p {
   margin: 0 auto;
-  margin-top: 150px;
+  padding-top: 150px;
+  padding-bottom: 200px;
   text-align: center;
   color: rgba(255, 255, 255, 0.774);
   font-size: 28px;
