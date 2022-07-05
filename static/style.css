@@ -69,7 +69,7 @@ h6 {
 #navbar {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
@@ -128,6 +128,7 @@ hr {
   height: 200px;
   width: 200px;
   border-radius: 9999px;
+  margin: 0 auto;
 }
 
 .text p {
@@ -158,6 +159,17 @@ hr {
 .text a:hover {
   background: #3d3d52;
   color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .text {
+    padding: 50px;
+  }
+
+  .text img {
+    height: 128px;
+    width: 128px;
+  }
 }
 
 ::-webkit-scrollbar {
