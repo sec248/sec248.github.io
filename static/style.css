@@ -5,76 +5,187 @@
  * https://opensource.org/licenses/MIT
  */
 
- @import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@100;200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@100;200;300;400;500;600;700&display=swap");
 
-html, body {
-    margin: 0px;
-    font-family: 'Kantumruy Pro', sans-serif;
-    padding: 0px;
+html,
+body {
+  margin: 0px;
+  font-family: "Kantumruy Pro", sans-serif;
+  padding: 0px;
+  background: #0f0f16;
+  scroll-behavior: smooth;
 }
 
 #upper {
-    background: url(./background.jpg);
-    background-position: center;
-    background-repeat: repeat;
-    background-size: cover;
-    min-height: 512px;
+  background: url(./background.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  min-height: 512px;
+  border-bottom: 2px solid #aeaef1;
 }
 
 #upper p {
-    margin-top: 150px;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.774);
-    font-size: 28px;
-    font-weight: 600;
-    transition: 250ms;
+  margin-top: 150px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.774);
+  font-size: 28px;
+  font-weight: 600;
+  transition: 250ms;
+}
+
+h6 {
+  background: #000;
+  color: #fff;
+  margin: 0px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 4px;
+  margin: 0px;
 }
 
 #upper p:hover {
-    color: #fff;
+  color: #fff;
 }
 
 #upper a {
-    background: #000;
-    color: #fff;
-    margin: 0px;
-    margin-bottom: 40px;
-    text-align: center;
-    font-size: 12px;
-    font-weight: 400;
-    padding: 4px;
-    display: block;
-    text-decoration: none;
+  background: #000;
+  color: #fff;
+  margin: 0px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 4px;
+  display: block;
+  text-decoration: none;
 }
 
 #navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 #navbar h1 {
-    color: #fff;
-    font-size: 24px;
-    font-weight: 600;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 #navbar a {
-    text-decoration: none;
-    color: #ddd;
-    font-size: 18px;
-    font-weight: 600;
-    transition: 250ms;
-    background: transparent;
-    display: inline;
-    padding: 10px;
-} 
+  text-decoration: none;
+  color: #eee;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 250ms;
+  background: transparent;
+  display: inline;
+  padding: 10px;
+}
 
 #navbar a:hover {
-    color: #fff;
+  color: #fff;
 }
 
 #upper h1 {
-    text-align: center;
+  text-align: center;
+}
+
+#about {
+  padding: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#about div {
+  max-width: 50vw;
+  text-align: left;
+}
+
+#about img {
+  background: #20202e;
+  height: 200px;
+  width: 200px;
+  border-radius: 9999px;
+  margin: 50px;
+}
+
+#about h1 {
+  color: #eee;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+#about p {
+  color: #ddd;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+hr {
+  width: 50%;
+  margin: 0 auto;
+  border: 2px solid #20202e;
+  border-radius: 10px;
+}
+
+#social {
+  padding: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap-reverse;
+}
+
+#social div {
+  max-width: 50vw;
+  text-align: left;
+}
+
+#buttons {
+  width: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#social img {
+  background: #20202e;
+  height: 200px;
+  width: 200px;
+  border-radius: 9999px;
+  margin: 50px;
+}
+
+#social h1 {
+  color: #eee;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+#social a {
+  background: #29293a;
+  padding: 5px 10px 5px 10px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #ccc;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 250ms;
+  margin: 5px;
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+#social a:hover {
+  background: #3d3d52;
+  color: #fff;
 }
