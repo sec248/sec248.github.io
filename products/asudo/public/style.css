@@ -30,12 +30,20 @@ p {
     font-weight: 400;
 }
 
-code {
+span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+span code {
     padding: 2px 5px 2px 5px;
     background: #f6f8ff;
     color: #0f0f16;
     font-size: 14px;
     font-weight: 400;
+    margin: 5px;
 }
 
 a {
