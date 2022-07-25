@@ -7,191 +7,92 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@100;200;300;400;500;600;700&display=swap");
 
-html,
+html {
+  width: 100%;
+  height: 100%;
+}
+
 body {
   margin: 0px;
-  font-family: "Kantumruy Pro", sans-serif;
   padding: 0px;
-  background: #0f0f16;
-  scroll-behavior: smooth;
-}
+  font-family: "Kantumruy Pro", sans-serif;
 
-#upper {
   background: url(../image/background.jpg);
   background-position: center;
-  background-repeat: repeat;
   background-size: cover;
-  border-bottom: 2px solid #aeaef1;
-}
 
-#upper p {
-  margin: 0 auto;
-  padding-top: 150px;
-  padding-bottom: 200px;
-  text-align: center;
-  color: rgba(255, 255, 255, 0.774);
-  font-size: 28px;
-  font-weight: 600;
-  transition: 250ms;
-  width: 70%;
-  word-break: break-all;
-}
-
-h6 {
-  background: #000;
-  color: #fff;
-  margin: 0px;
-  margin-bottom: 40px;
-  text-align: center;
-  font-size: 12px;
-  font-weight: 400;
-  padding: 4px;
-  margin: 0px;
-}
-
-#upper p:hover {
-  color: #fff;
-}
-
-#upper a {
-  background: #000;
-  color: #fff;
-  margin: 0px;
-  margin-bottom: 40px;
-  text-align: center;
-  font-size: 12px;
-  font-weight: 400;
-  padding: 4px;
-  display: block;
-  text-decoration: none;
-}
-
-#navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-
-#navbar h1 {
-  color: #fff;
-  font-size: 24px;
-  font-weight: 600;
-}
-
-#navbar a {
-  text-decoration: none;
-  color: #eee;
-  font-size: 18px;
-  font-weight: 600;
-  transition: 250ms;
-  background: transparent;
-  display: inline;
-  padding: 10px;
-}
-
-#navbar a:hover {
-  color: #fff;
-}
-
-#upper h1 {
-  text-align: center;
-}
-
-hr {
-  width: 50%;
-  margin: 0 auto;
-  border: 2px solid #20202e;
-  border-radius: 10px;
-}
-
-.text {
-  padding: 100px;
-  text-align: center;
-}
-
-.text div {
-  width: 50vw;
-  margin: 0 auto;
-}
-
-#buttons {
-  width: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+
+  width: 100%;
+  height: 100%;
 }
 
-.text img {
-  background: #20202e;
-  height: 200px;
-  width: 200px;
-  border-radius: 9999px;
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  flex-wrap: wrap-reverse;
   margin: 0 auto;
 }
 
-.text p {
-  color: #ddd;
-  font-size: 18px;
-  font-weight: 500;
+#about {
+  max-width: 70%;
 }
 
-.text h1 {
-  color: #eee;
-  font-size: 32px;
-  font-weight: 600;
-  margin-top: 50px;
-}
-
-.text a {
-  background: #29293a;
-  padding: 5px 10px 5px 10px;
-  border-radius: 50px;
-  text-decoration: none;
-  color: #ccc;
-  font-size: 18px;
-  font-weight: 500;
-  transition: 250ms;
-  margin: 5px;
-}
-
-.text a:hover {
-  background: #3d3d52;
+#about h1 {
   color: #fff;
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 5px;
 }
 
-@media only screen and (max-width: 600px) {
-  .text {
-    padding: 50px;
-  }
-
-  .text img {
-    height: 128px;
-    width: 128px;
-  }
+#about p {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 5px;
 }
 
-::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
+#buttons {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
-::-webkit-scrollbar-button {
-  width: 0px;
-  height: 0px;
+
+#buttons a {
+  background: #000;
+  border-bottom: 2px solid #000;
+  padding: 2px 5px 2px 5px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  text-decoration: none;
 }
-::-webkit-scrollbar-thumb {
-  background: #aeaef1;
+
+#buttons a:hover {
+  border-bottom: 2px solid #fff;
 }
-::-webkit-scrollbar-track {
-  background: transparent;
+
+#pfp {
+  margin: 10px;
 }
-::-webkit-scrollbar-track:hover {
-  background: transparent;
+
+#pfp img {
+  width: 128px;
+  height: 128px;
+  border: 2px solid #000;
 }
-::-webkit-scrollbar-track:active {
-  background: transparent;
-}
-::-webkit-scrollbar-corner {
-  background: transparent;
+
+#pfp p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
 }
